@@ -29,7 +29,7 @@ git commit -m "Your commit message"
 ```
 Push the changes to the Repo:
 ```bash
-git push
+git push origin new_branch_name
 ```
 Go to the Repository
 [Repo](https://github.com/DanielLanghann/fachpraktikum_uebungen)
