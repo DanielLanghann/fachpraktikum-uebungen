@@ -33,4 +33,6 @@ git push
 ```
 Go to the Repository
 [Repo](https://github.com/DanielLanghann/fachpraktikum_uebungen)
-and create a Pull-Request.
+
+and create a Pull-Request:
+[Pull-Requests](https://github.com/DanielLanghann/fachpraktikum_uebungen/pulls)
