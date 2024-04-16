@@ -6,3 +6,13 @@ services:
     volumes:
       - .:/app
     command: python src/main.py
+
+  jupyter:
+    image: jupyter/base-notebook:latest
+    volumes:
+      - ./src:/home/jovyan/work
+    ports:
+      - "8888:8888"
+    # Enable JupyterLab interface 
+    environment:
+      - JUPYTER_ENABLE_LAB=yes

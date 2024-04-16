@@ -36,3 +36,10 @@ Go to the Repository
 
 and create a Pull-Request:
 [Pull-Requests](https://github.com/DanielLanghann/fachpraktikum_uebungen/pulls)
+
+# Jupyter-Notebook
+After building and starting Docker you can access the Jupyter-Notebook
+Server at [Jupyter-Notebook](http://localhost:8888)
+
+Please use the token provided by jupyter in the console. Search for pattern like: http://62cb11e78fd5:8888/lab?token=2d6492687663a7234f396911f29dd8428cde49e755189a0a
+Copy and paste the token after the equal sign and login to Jupyter.
