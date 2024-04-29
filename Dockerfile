@@ -1,17 +1,12 @@
-# Get a slim Python Docker Image
 FROM python:3.11-slim
 
-# Set the working directory inside the container
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy the source code into the Container
-COPY src/ ./src
-
-# Copy the requirements.txt into the container
+# Will be install Jupyter Notebook as well
 COPY requirements.txt .
-
-# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Command to run when container launches
+COPY src/ ./src
+
 CMD ["python", "src/main.py"]

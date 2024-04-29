@@ -8,11 +8,11 @@ services:
     command: python src/main.py
 
   jupyter:
-    image: jupyter/base-notebook:latest
+    build: .
     volumes:
       - ./src:/home/jovyan/work
     ports:
       - "8888:8888"
-    # Enable JupyterLab interface 
     environment:
       - JUPYTER_ENABLE_LAB=yes
+    command: jupyter lab --notebook-dir=/home/jovyan/work --ip='0.0.0.0' --port=8888 --no-browser --allow-root
