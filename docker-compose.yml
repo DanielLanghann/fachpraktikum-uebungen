@@ -1,10 +1,4 @@
 services:
-  fuhagen_1:
-    build: .
-    volumes:
-      - .:/app
-    command: python src/main.py
-
   jupyter:
     build: .
     volumes:
