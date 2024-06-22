@@ -4,3 +4,9 @@ venv/
 # Ignore all ipython input profile files
 _ipython-input-*-profile
 **/_ipython-input-*-profile
+
+# Ignore files with lu_
+lu_factor*
+lu_inplace*
+lu_notinplace*
+memray-flamegraph-lu_inplace.html
