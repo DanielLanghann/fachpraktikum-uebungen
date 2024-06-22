@@ -10,3 +10,4 @@ lu_factor*
 lu_inplace*
 lu_notinplace*
 memray-flamegraph-lu_inplace.html
+
